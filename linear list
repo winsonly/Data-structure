@@ -1,0 +1,10 @@
+#include<iostream>
+#define MAXSIZE 10;
+typede int ElementType;
+typedef int Position;
+struct LNode{
+  ElementType data[MAXSIZE];
+  Position last;
+} ;
+typedef LNode* PtrToLNode;
+typedef PtrToNode List;
